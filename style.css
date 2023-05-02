@@ -47,3 +47,52 @@ body{
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+/* donate-today styles */
+.donate-today{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.donate-today > h1{
+    color: #121212;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.donate-today > p{
+    color: #707070;
+    margin-bottom: 40px;
+}
+.donate-amount-option{
+    display: flex;
+    justify-content: center;
+}
+.donate-amount{
+    width: 135px;
+    height: 123px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    color: #707070;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.seleted-amount{
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+.other-amount{
+    margin-top: 45px;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+.horizontal-line{
+    width: 750px;
+    border: 1px solid #DADADA;
+    margin-left: 185px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
