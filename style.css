@@ -19,6 +19,16 @@ body{
     cursor: pointer;
 }
 
+.title{
+    font-size: 42px;
+    color: #121212;
+    margin-bottom: 12px;
+}
+.text{
+    color: #707070;
+    margin-bottom: 40px;
+}
+
 /* header styles */
 #header-section{
     background-image: url('./images/donation13.jpg');
@@ -54,15 +64,6 @@ body{
     margin-bottom: 100px;
     text-align: center;
 }
-.donate-today > h1{
-    color: #121212;
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-.donate-today > p{
-    color: #707070;
-    margin-bottom: 40px;
-}
 .donate-amount-option{
     display: flex;
     justify-content: center;
@@ -95,4 +96,37 @@ body{
     margin-left: 185px;
     margin-bottom: 30px;
     margin-top: 5px;
+}
+
+/* donate plan styles */
+.donate-plan{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.donate-plan-items{
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+}
+.donate-plan-item{
+    width: 360px;
+    height: 325px;
+    margin-right: 20px;
+    border-radius: 5px;
+    text-align: start;
+    padding: 40px 20px;
+}
+.item-img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.item-title{
+    font-size: 22px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+.item-description{
+    font-size: 16px;
+    color: #707070;
 }
