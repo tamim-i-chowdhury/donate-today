@@ -140,19 +140,19 @@ body{
     width: 80%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-around;
     margin-bottom: 50px;
 }
 .text-container{
-    width: 55%;
-    padding-right: 40px;
-    padding-top: 50px;
+    width: 40%;
+    padding-top: 25px;
 }
 .img-container{
-    width: 40%;
+    width: 45%;
 }
 .img-container > img{
     width: 400px;
-    height: 400px;
+    height: 450px;
     border-radius: 5px;
 }
 
